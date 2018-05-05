@@ -7,7 +7,7 @@
 module.exports = ({
     // baseUrl: './',  // 如果build.js不在根目录,需要在执行r.js时指定. node lib/r.js -o src/build.js baseUrl='./'
     name: 'src/main',
-    out: 'main-min.js',
+    out: 'main-bundle.js',
     // paths: {  // 这里要从main.js复制出来
     //     'vue': 'lib/vue/2.5.16/vue',
     //     'app': 'src/app',
@@ -23,5 +23,5 @@ module.exports = ({
     // // },
     exclude: ['ELEMENT'],//不打包,
     mainConfigFile: 'main.js',
-    // optimizeCss: "none",
+    // optimize: "none",
 })
